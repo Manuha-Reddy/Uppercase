@@ -1,0 +1,6 @@
+function uppercase(str){
+  const newStr = str.toUpperCase().split('').join('');
+  return newStr;
+}
+
+document.write(uppercase("manu"));
